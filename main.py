@@ -31,17 +31,17 @@ while True:
     for timings in class_timings:
         if current_time == timings:
 
-            if timings == "09:00:00":
+            if timings == class_timings[0]:
                 join_to_meeting("8437561852", "2121")
 
-            if timings == "10:00:00":
+            if timings == class_timings[1]:
 	        join_to_meeting("8437561852", "2121")
 
-            if timings == "11:32:00":
+            if timings == class_timings[2]:
                 join_to_meeting("8437561852", "2121")
 
-            if timings == "14:00:00":
+            if timings == class_timings[3]:
                 join_to_meeting("8437561852", "2121")
 
-            if timings == "15:00:00":
+            if timings == class_timings[4]:
                 join_to_meeting("8437561852", "2121")
